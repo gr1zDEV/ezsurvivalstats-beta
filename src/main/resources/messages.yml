@@ -1,0 +1,12 @@
+prefix: '&7[&aEZStats&7] '
+
+loading: '&7Loading stats...'
+
+errors:
+  players_only: '&cThis command can only be used in-game.'
+  no_permission: '&cYou do not have permission to do that.'
+  player_not_found: '&cPlayer not found in cache.'
+
+commands:
+  reload_success: '&aConfiguration and messages reloaded.'
+  reload_usage: '&cUsage: /ezstats reload'

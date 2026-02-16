@@ -1,0 +1,12 @@
+flush_interval_seconds: 30
+leaderboard_refresh_minutes: 5
+track_creative: false
+
+gui_titles:
+  main: '&aEZ Survival Stats'
+  general: '&eGeneral Stats'
+  combat: '&cCombat Stats'
+  collections: '&bCollections'
+  blocks_mined: '&bBlocks Mined'
+  items_collected: '&bItems Collected'
+  leaderboards: '&6Top Leaderboards'

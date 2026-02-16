@@ -1,0 +1,30 @@
+name: EZSurvivalStats
+version: 1.0.0
+main: org.ezinnovations.ezsurvivalstats.EZSurvivalStats
+api-version: '1.21'
+author: EZInnovations
+website: https://github.com/ezinnovations/ezsurvivalstats
+softdepend: [PlaceholderAPI]
+commands:
+  stats:
+    description: Open your survival stats menu.
+    usage: /stats [player]
+    permission: ezsurvivalstats.view
+  top:
+    description: Open top leaderboards.
+    usage: /top
+    permission: ezsurvivalstats.view
+  ezstats:
+    description: Administrative EZSurvivalStats command.
+    usage: /ezstats reload
+    permission: ezsurvivalstats.admin
+permissions:
+  ezsurvivalstats.view:
+    description: Allows opening own stats and leaderboard menus.
+    default: true
+  ezsurvivalstats.view.others:
+    description: Allows viewing other players stats.
+    default: op
+  ezsurvivalstats.admin:
+    description: Allows administrative plugin actions.
+    default: op
